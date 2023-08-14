@@ -8,12 +8,10 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     meta,
     starbucks,
@@ -23,6 +21,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    sqlLogo,
+    java,
+    c,
+    linux,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +45,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Engineer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Full Stack Engineer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Java Instructor",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "",
       icon: creator,
     },
   ];
@@ -81,8 +84,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "SQL",
+      icon: sqlLogo,
     },
     {
       name: "Tailwind CSS",
@@ -105,13 +108,21 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "java", 
+      icon: java,
+    },
+    {
+      name: "c++", 
+      icon: c,
+    },
+    {
+      name: "linux", 
+      icon: linux,
+    }
   ];
   
   const experiences = [
